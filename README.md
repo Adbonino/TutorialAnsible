@@ -17,7 +17,7 @@ $ ansible-playbook -i inventories/local playbooks/hostname.yml
 
         {{ antiguedad | default(0) }}
 
-    Variables opcionales:+
+    Variables opcionales:
 
         - name: touch files with an optional mode
           ansible.builtin.file:
